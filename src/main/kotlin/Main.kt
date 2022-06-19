@@ -19,4 +19,23 @@ fun main(args: Array<String>) {
     val mergeOverLappingIntervals = MergeOverLappingIntervals()
     val outPut = mergeOverLappingIntervals.mergeOverLappingIntervals(emptyList())
     println(outPut)
+
+    val tiles1 = "11133555"
+    val tiles2 = "111333555"
+    val tiles3 = "00000111"
+    val tiles4 = "13233121"
+    val tiles5 = "11223344555"
+    val tiles6 = "99999999"
+    val tiles7 = "999999999"
+    val tiles8 = "9"
+    val tiles9 = "99"
+    val tiles10 = "000022"
+    val tiles11 = "888889"
+    val tiles12 = "889"
+    val tiles13 = "88888844"
+    val tiles14 = "77777777777777"
+    val tiles15 = "1111111"
+    val tiles16 = "1111122222"
+
+    println(CompleteHand().complete(tiles1))
 }
